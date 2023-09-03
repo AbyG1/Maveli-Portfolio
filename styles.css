@@ -4,6 +4,7 @@
 }
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 165px;
 
 }
 @font-face{
@@ -52,6 +53,8 @@ body{
   }
 
 
+
+
 .hero {
     
     width: 100%;
@@ -94,4 +97,34 @@ body{
 
 #aboutme,#aboutonam{
     margin-top:100px
+}
+
+.story {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-color: #B5164C;
+    padding: 30px 100px ;
+    box-sizing: border-box;
+    background-color: #45565C;
+}
+
+.story h1{
+    font-size: 35px; 
+    margin-bottom: 10px;
+}
+
+.story p {
+    font-size: 25px; 
+    margin-top: 10px;
+}
+
+figcaption{
+    color: white;
+}
+
+.mav-img2 {
+    width: 800px;
+    
 }
