@@ -13,7 +13,7 @@ html {
 
 body{
     font-family: monotes;
-    background-image: linear-gradient(#FBB51E,#FE8417,#E1680B);
+    background-image: linear-gradient(#FBB51E,#FE8417);
 }
 
 
@@ -52,11 +52,6 @@ body{
   }
 
 
-
-
-
-
-
 .hero {
     
     width: 100%;
@@ -66,5 +61,37 @@ body{
 
 }
 
+.about {
+    
+    display: flex;
+    color:#537518;
+    justify-content:center;
+    align-items: flex-start;
+    margin-bottom: 70px;
+}
 
+.about .mav-img1{
 
+    width: 400px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.about-text {
+    width: 50%;
+    font-size: 25px;
+    background-color: #FBB51E;
+    padding-left: 15px;
+    padding-bottom: 46px;
+    
+}
+
+.about-text h1 {
+    font-size: 35px; 
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+#aboutme,#aboutonam{
+    margin-top:100px
+}
