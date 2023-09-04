@@ -4,7 +4,7 @@
 }
 html {
     scroll-behavior: smooth;
-    /* scroll-padding-top: 160px; */
+    scroll-padding-top: 170px;
 
 }
 @font-face{
@@ -24,8 +24,8 @@ body{
     justify-content:center;
     align-items: center;
     background-color: #FDBD35;
-    border-bottom: 5px solid black;
     border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 
@@ -64,17 +64,21 @@ body{
 
 }
 
+
+section {
+    margin-bottom: 100px;
+}
+
 .about {
     
     display: flex;
     color:#537518;
     justify-content:center;
     align-items: flex-start;
-    margin-bottom: 50px;
+   
 }
 
-.about .mav-img1{
-
+.mav-img1{
     width: 400px;
     height: auto;
     margin-right: 50px;
@@ -89,15 +93,6 @@ body{
     
 }
 
-.about-text h1 {
-    font-size: 35px; 
-    margin-bottom: 10px; 
-    text-align: center;
-}
-
-#aboutme,#aboutonam{
-    margin-top:50px;
-}
 
 .story {
     text-align: center;
@@ -109,14 +104,14 @@ body{
     background-color: #45565C;
 }
 
-.story h1{
-    font-size: 35px; 
-    margin-bottom: 10px;
+.story h1 {
+    color: black;
 }
 
-.story p {
+.story p{
     font-size: 25px; 
     margin-top: 10px;
+     
 }
 
 figcaption{
@@ -125,29 +120,24 @@ figcaption{
 
 .mav-img2 {
     width: 800px;
-    
 }
 
 .imagecontainer {
     display: flex;
     justify-content: space-evenly;
     align-items: start;
+   
 }
 
 
 .imagecontainer img {
     width: 400px;
     height: 300px;
-    border-radius: 5%;
+    border-radius: 10%;
     padding-bottom: 20px;
+
 }
 
-#aboutonam h1 {
-    text-align: center;
-    font-size: 35px;
-    color:#537518;
-    margin-bottom: 10px;
-}
 
 .onamtext {
     width: 90%;
@@ -186,11 +176,22 @@ figcaption{
 }
 
 .footer{
-    height: 80px;
+    height: 75px;
     display:flex;
     justify-content: center;
     align-items: center;
     border-top: 1px solid #FBB51E;
 
+}
+
+.about,.imagecontainer,.onamtext {
+    margin-bottom: 50px;
+}
+
+h1{
+    text-align:center;
+    color:#537518;
+    margin-bottom: 15px;
+    font-size: 35px;
 }
 
