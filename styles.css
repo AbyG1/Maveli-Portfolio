@@ -4,7 +4,7 @@
 }
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 165px;
+    /* scroll-padding-top: 160px; */
 
 }
 @font-face{
@@ -70,7 +70,7 @@ body{
     color:#537518;
     justify-content:center;
     align-items: flex-start;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .about .mav-img1{
@@ -85,7 +85,7 @@ body{
     font-size: 25px;
     background-color: #FBB51E;
     padding-left: 15px;
-    padding-bottom: 46px;
+    padding-bottom: 20px;
     
 }
 
@@ -96,7 +96,7 @@ body{
 }
 
 #aboutme,#aboutonam{
-    margin-top:100px
+    margin-top:50px;
 }
 
 .story {
@@ -104,7 +104,6 @@ body{
     width: 95%;
     margin: 0 auto;
     border-radius: 5%;
-    background-color: #B5164C;
     padding: 30px 100px ;
     box-sizing: border-box;
     background-color: #45565C;
@@ -128,3 +127,42 @@ figcaption{
     width: 800px;
     
 }
+
+.imagecontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+.imagecontainer img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    padding-bottom: 20px;
+}
+
+#aboutonam h1 {
+    text-align: center;
+    font-size: 35px;
+    color:#537518;
+    margin-bottom: 10px;
+}
+
+.onamtext {
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    background-color:#537518;
+}
+
+.onamtext p {
+    font-size: 25px; 
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+    
+}
+
+
